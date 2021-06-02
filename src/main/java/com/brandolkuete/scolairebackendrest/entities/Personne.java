@@ -14,7 +14,7 @@ import java.util.Date;
 @NoArgsConstructor
 @ToString
 @Entity
-public class Personne {
+public class Personne extends Auditable{
 	
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Id

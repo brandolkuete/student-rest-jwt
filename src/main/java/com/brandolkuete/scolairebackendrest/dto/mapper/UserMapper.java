@@ -49,14 +49,4 @@ public class UserMapper implements EntityMapper<User,UserForm> {
     public UserForm toDto(User user) {
         return null;
     }
-
-    @Override
-    public List<UserForm> toEntity(List<User> users) {
-        return null;
-    }
-
-    @Override
-    public List<User> toDto(List<UserForm> userForms) {
-        return null;
-    }
 }

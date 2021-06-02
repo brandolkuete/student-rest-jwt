@@ -1,9 +1,9 @@
 package com.brandolkuete.scolairebackendrest.rest;
 
 import com.brandolkuete.scolairebackendrest.dto.EleveDTO;
-import com.brandolkuete.scolairebackendrest.dto.mapper.EleveMapper;
+import com.brandolkuete.scolairebackendrest.dto.mapper.AbstractMapper;
 import com.brandolkuete.scolairebackendrest.entities.Eleve;
-import com.brandolkuete.scolairebackendrest.service.serviceImpl.EleveServiceImpl;
+import com.brandolkuete.scolairebackendrest.service.EleveService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -18,17 +18,16 @@ import java.util.List;
 @CrossOrigin("http://localhost:3000")
 public class ScolarRessources {
 
-	private final EleveServiceImpl eleveService;
-	private final EleveMapper eleveMapper;
+	private final EleveService eleveService;
+	AbstractMapper<Eleve,EleveDTO> eleveMapper;
 
 
-	public ScolarRessources(EleveServiceImpl eleveService, EleveMapper eleveMapper) {
+	public ScolarRessources(EleveService eleveService) {
 		this.eleveService = eleveService;
-		this.eleveMapper = eleveMapper;
 	}
 
 	@PostMapping(value= "/enregistrerEleve")
-    public ResponseEntity<Object> enregistrerEleve(@RequestBody EleveDTO eleveDto) throws ParseException {
+    public ResponseEntity<Object> enregistrerEleve(@RequestBody EleveDTO eleveDto) {
     	
     	if(eleveService.findByMatricule(eleveDto.getMatricule())!=null) {
 			return new ResponseEntity<>("un eleve existe déja avec ce matricule",HttpStatus.BAD_REQUEST);

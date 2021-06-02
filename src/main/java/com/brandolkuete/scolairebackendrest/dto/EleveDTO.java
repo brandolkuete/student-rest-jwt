@@ -5,6 +5,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
+import java.util.Date;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -13,4 +15,10 @@ public class EleveDTO extends PersonneDTO{
 	
 	private String niveau;
 	private String filiere;
+
+	public EleveDTO(Long id, String matricule, String nom, String prenom, Date date_nais, String addresse, String niveau, String filiere) {
+		super(id, matricule, nom, prenom, date_nais, addresse);
+		this.niveau = niveau;
+		this.filiere = filiere;
+	}
 }

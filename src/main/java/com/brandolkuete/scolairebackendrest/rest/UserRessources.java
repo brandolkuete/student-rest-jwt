@@ -3,7 +3,7 @@ package com.brandolkuete.scolairebackendrest.rest;
 import com.brandolkuete.scolairebackendrest.dto.TokenDto;
 import com.brandolkuete.scolairebackendrest.dto.UseDto;
 import com.brandolkuete.scolairebackendrest.entities.UserForm;
-import com.brandolkuete.scolairebackendrest.service.serviceImpl.UserService;
+import com.brandolkuete.scolairebackendrest.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

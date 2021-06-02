@@ -1,4 +1,4 @@
-package com.brandolkuete.scolairebackendrest.service.serviceImpl;
+package com.brandolkuete.scolairebackendrest.service;
 
 import com.brandolkuete.scolairebackendrest.config.JwtTokenProvider;
 import com.brandolkuete.scolairebackendrest.config.MyUserDetails;

@@ -5,19 +5,20 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
+import java.util.Date;
 
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class PersonneDTO {
+public class PersonneDTO extends AuditableDTO {
 
 	private Long id;
 	
 	private String matricule;
 	private String nom;
 	private String prenom;
-	private String date_nais;
+	private Date date_nais;
 	private String addresse;
 }
