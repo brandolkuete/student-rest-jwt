@@ -2,43 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80f426a8-7290-4872-8911-654d5acf1bbd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/config/JpaAuditorAwareConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/AuditableDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/mapper/AbstractMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/entities/Auditable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/AbstractService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/Impl/AuditorAwareImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/brandolkuete/scolairebackendrest/service/EleveServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/brandolkuete.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/config/JwtTokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/config/JwtTokenProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/config/SecurityConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/config/SecurityConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/EleveDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/EleveDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/PersonneDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/PersonneDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/mapper/EleveMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/mapper/EleveMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/mapper/EntityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/mapper/EntityMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/entities/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/entities/Personne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/rest/ScolarRessources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/rest/ScolarRessources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/rest/UserRessources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/rest/UserRessources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/EntityService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/serviceImpl/EleveServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/EleveService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/serviceImpl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/config/JwtTokenProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/config/JwtTokenProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/config/WebSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/dto/PersonneDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/dto/PersonneDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/dto/mapper/EleveMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/dto/mapper/EntityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/dto/mapper/EntityMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/dto/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/dto/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/entities/Personne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/entities/Personne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/rest/ScolarRessources.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/rest/ScolarRessources.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/rest/UserRessources.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/rest/UserRessources.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/service/EleveService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/service/EleveService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/service/EntityService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/service/serviceImpl/EleveServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/service/serviceImpl/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/entities/Eleve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/entities/Eleve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/AbstractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/AbstractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/brandolkuete/scolairebackendrest/service/EleveServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/brandolkuete/scolairebackendrest/service/EleveServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/entities/Eleve.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/brandolkuete/scolairebackendrest/entities/Eleve.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/brandolkuete/scolairebackendrest/service/EleveServiceTest$Add.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/brandolkuete/scolairebackendrest/service/EleveServiceTest$Add.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/brandolkuete/scolairebackendrest/service/EleveServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/brandolkuete/scolairebackendrest/service/EleveServiceTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,44 +37,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRessources.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/rest/UserRessources.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JwtTokenFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/config/JwtTokenFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EleveServiceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/brandolkuete/scolairebackendrest/service/EleveServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="119">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#0#3195#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EleveService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/EleveService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,56 +61,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JwtTokenProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/config/JwtTokenProvider.java">
+      <file leaf-file-name="AbstractService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/AbstractService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="537">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JwtBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0-sources.jar!/io/jsonwebtoken/JwtBuilder.java">
+      <file leaf-file-name="Eleve.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/entities/Eleve.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="207" column="33" lean-forward="true" selection-start-line="207" selection-start-column="33" selection-end-line="207" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultJwtBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0-sources.jar!/io/jsonwebtoken/impl/DefaultJwtBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="188" selection-start-line="188" selection-end-line="188" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Claims.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0-sources.jar!/io/jsonwebtoken/Claims.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="119" column="11" selection-start-line="119" selection-start-column="11" selection-end-line="119" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultClaims.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0-sources.jar!/io/jsonwebtoken/impl/DefaultClaims.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JwtMap.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0-sources.jar!/io/jsonwebtoken/impl/JwtMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="374">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -170,8 +88,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -190,10 +108,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/mapper/EnseignantMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/ScolaireBackendRestApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/entities/Eleve.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/entities/Enseignant.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/EnseignantDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/ReponseDto.java" />
@@ -233,13 +149,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/AuditableDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/PersonneDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/mapper/AbstractMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/AbstractService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/mapper/EleveMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/EleveDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/EleveService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/config/SecurityConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/config/JwtTokenProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/entities/Eleve.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/brandolkuete/scolairebackendrest/service/AbstractServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/AbstractService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/EleveService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/brandolkuete/scolairebackendrest/service/EleveServiceTest.java" />
       </list>
     </option>
@@ -278,9 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,26 +236,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="scolairebackendrest" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="student-rest-jwt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="student-rest-jwt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scolairebackendrest" type="462c0819:PsiDirectoryNode" />
               <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="student-rest-jwt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="student-rest-jwt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scolairebackendrest" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="student-rest-jwt" type="b2602c69:ProjectViewProjectNode" />
@@ -358,26 +254,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="scolairebackendrest" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="student-rest-jwt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="student-rest-jwt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scolairebackendrest" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="student-rest-jwt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="student-rest-jwt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scolairebackendrest" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="student-rest-jwt" type="b2602c69:ProjectViewProjectNode" />
@@ -420,6 +297,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -439,7 +319,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -471,11 +351,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EleveServiceTest.shouldAddTwoNumbers">
+  <component name="RunManager" selected="JUnit.EleveServiceTest.should_get_student_by_id">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="EleveServiceTest.shouldAddTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EleveServiceTest.shoul_delete_student" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="scolaire-backend-rest" />
       <extension name="coverage">
         <pattern>
@@ -487,7 +367,99 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.brandolkuete.scolairebackendrest.service" />
       <option name="MAIN_CLASS_NAME" value="com.brandolkuete.scolairebackendrest.service.EleveServiceTest" />
-      <option name="METHOD_NAME" value="shouldAddTwoNumbers" />
+      <option name="METHOD_NAME" value="shoul_delete_student" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="EleveServiceTest.shouldFindAllStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="scolaire-backend-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brandolkuete.scolairebackendrest.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.brandolkuete.scolairebackendrest.service" />
+      <option name="MAIN_CLASS_NAME" value="com.brandolkuete.scolairebackendrest.service.EleveServiceTest" />
+      <option name="METHOD_NAME" value="shouldFindAllStudents" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="EleveServiceTest.shouldSaveStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="scolaire-backend-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brandolkuete.scolairebackendrest.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.brandolkuete.scolairebackendrest.service" />
+      <option name="MAIN_CLASS_NAME" value="com.brandolkuete.scolairebackendrest.service.EleveServiceTest" />
+      <option name="METHOD_NAME" value="shouldSaveStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="EleveServiceTest.should_find_student_by_matricule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="scolaire-backend-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brandolkuete.scolairebackendrest.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.brandolkuete.scolairebackendrest.service" />
+      <option name="MAIN_CLASS_NAME" value="com.brandolkuete.scolairebackendrest.service.EleveServiceTest" />
+      <option name="METHOD_NAME" value="should_find_student_by_matricule" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="EleveServiceTest.should_get_student_by_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="scolaire-backend-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.brandolkuete.scolairebackendrest.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.brandolkuete.scolairebackendrest.service" />
+      <option name="MAIN_CLASS_NAME" value="com.brandolkuete.scolairebackendrest.service.EleveServiceTest" />
+      <option name="METHOD_NAME" value="should_get_student_by_id" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -545,11 +517,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.ScolaireBackendRestApplication" />
-      <item itemvalue="JUnit.EleveServiceTest.shouldAddTwoNumbers" />
+      <item itemvalue="JUnit.EleveServiceTest.shouldFindAllStudents" />
+      <item itemvalue="JUnit.EleveServiceTest.should_find_student_by_matricule" />
+      <item itemvalue="JUnit.EleveServiceTest.shouldSaveStudent" />
+      <item itemvalue="JUnit.EleveServiceTest.shoul_delete_student" />
+      <item itemvalue="JUnit.EleveServiceTest.should_get_student_by_id" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EleveServiceTest.shouldAddTwoNumbers" />
+        <item itemvalue="JUnit.EleveServiceTest.should_get_student_by_id" />
+        <item itemvalue="JUnit.EleveServiceTest.shoul_delete_student" />
+        <item itemvalue="JUnit.EleveServiceTest.shouldSaveStudent" />
+        <item itemvalue="JUnit.EleveServiceTest.shouldFindAllStudents" />
+        <item itemvalue="JUnit.EleveServiceTest.should_find_student_by_matricule" />
       </list>
     </recent_temporary>
   </component>
@@ -570,23 +550,56 @@
       <workItem from="1606590011231" duration="71918000" />
       <workItem from="1606726487117" duration="17923000" />
       <workItem from="1622622845014" duration="442000" />
-      <workItem from="1622645230296" duration="19493000" />
+      <workItem from="1622645230296" duration="23722000" />
+      <workItem from="1622845448199" duration="6630000" />
+      <workItem from="1623105744023" duration="1910000" />
+      <workItem from="1623254551754" duration="7253000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EleveServiceTest_shouldAddTwoNumbers - 2021.06.02 at 21h 03m 34s.xml">
-      <configuration name="EleveServiceTest.shouldAddTwoNumbers" configurationId="JUnit" />
+    <history-entry file="EleveServiceTest_should_get_student_by_id - 2021.06.09 at 17h 44m 49s.xml">
+      <configuration name="EleveServiceTest.should_get_student_by_id" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EleveServiceTest_shouldAddTwoNumbers - 2021.06.02 at 21h 04m 22s.xml">
-      <configuration name="EleveServiceTest.shouldAddTwoNumbers" configurationId="JUnit" />
+    <history-entry file="EleveServiceTest_should_get_student_by_id - 2021.06.09 at 17h 45m 49s.xml">
+      <configuration name="EleveServiceTest.should_get_student_by_id" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EleveServiceTest_shouldAddTwoNumbers - 2021.06.02 at 21h 06m 57s.xml">
-      <configuration name="EleveServiceTest.shouldAddTwoNumbers" configurationId="JUnit" />
+    <history-entry file="EleveServiceTest_should_get_student_by_id - 2021.06.09 at 17h 48m 04s.xml">
+      <configuration name="EleveServiceTest.should_get_student_by_id" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EleveServiceTest_should_get_student_by_id - 2021.06.09 at 17h 52m 44s.xml">
+      <configuration name="EleveServiceTest.should_get_student_by_id" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EleveServiceTest_should_get_student_by_id - 2021.06.09 at 17h 53m 46s.xml">
+      <configuration name="EleveServiceTest.should_get_student_by_id" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EleveServiceTest_should_get_student_by_id - 2021.06.09 at 17h 55m 37s.xml">
+      <configuration name="EleveServiceTest.should_get_student_by_id" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EleveServiceTest_should_get_student_by_id - 2021.06.09 at 17h 58m 45s.xml">
+      <configuration name="EleveServiceTest.should_get_student_by_id" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EleveServiceTest_should_get_student_by_id - 2021.06.09 at 18h 00m 53s.xml">
+      <configuration name="EleveServiceTest.should_get_student_by_id" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EleveServiceTest_should_get_student_by_id - 2021.06.09 at 18h 02m 28s.xml">
+      <configuration name="EleveServiceTest.should_get_student_by_id" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EleveServiceTest_should_get_student_by_id - 2021.06.09 at 18h 02m 49s.xml">
+      <configuration name="EleveServiceTest.should_get_student_by_id" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146241000" />
+    <option name="totallyTimeSpent" value="166263000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -598,6 +611,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="5" weight="0.32969153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -610,10 +624,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31571814" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23712738" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3292683" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3292683" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18830334" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19023137" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -621,7 +635,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -653,13 +666,10 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/exception/CustomException.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/serviceImpl/AccountServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/serviceImpl/UserDetailsServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/AccountService.java" />
@@ -723,18 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/entities/Eleve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -748,23 +746,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/EntityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/EntityService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/EleveService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="34" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2028#2029#0" expanded="true" />
-            <element signature="e#2055#2056#0" expanded="true" />
-            <element signature="e#2130#2131#0" expanded="true" />
-            <element signature="e#2157#2158#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -809,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/entities/Personne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="501">
@@ -854,19 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/AbstractService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -880,37 +848,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/EleveDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="139" selection-start-line="18" selection-start-column="139" selection-end-line="18" selection-end-column="139" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/config/JwtTokenFilterConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/Impl/AuditorAwareImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="103" selection-start-line="25" selection-start-column="103" selection-end-line="25" selection-end-column="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/EleveService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -932,10 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1129">
           <caret line="618" column="23" lean-forward="true" selection-start-line="618" selection-start-column="23" selection-end-line="618" selection-end-column="23" />
-          <folding>
-            <element signature="e#27399#27400#0" expanded="true" />
-            <element signature="e#27429#27430#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -943,10 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
-          <folding>
-            <element signature="e#6390#6391#0" expanded="true" />
-            <element signature="e#6438#6439#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -971,6 +904,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0-sources.jar!/io/jsonwebtoken/impl/DefaultJwtBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="188" selection-start-line="188" selection-end-line="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0-sources.jar!/io/jsonwebtoken/impl/JwtMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/config/JwtTokenProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/rest/UserRessources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/config/JwtTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0-sources.jar!/io/jsonwebtoken/Claims.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -985,55 +967,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/Impl/AuditorAwareImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0-sources.jar!/io/jsonwebtoken/impl/DefaultJwtBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/entities/Personne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="188" selection-start-line="188" selection-end-line="188" />
+        <state relative-caret-position="153">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.7.0/jjwt-0.7.0-sources.jar!/io/jsonwebtoken/impl/JwtMap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/dto/EleveDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="221">
+          <caret line="18" column="139" selection-start-line="18" selection-start-column="139" selection-end-line="18" selection-end-column="139" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/config/JwtTokenProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/entities/Eleve.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="374">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/brandolkuete/scolairebackendrest/service/AbstractServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/AbstractService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/rest/UserRessources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="537">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/config/JwtTokenFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/brandolkuete/scolairebackendrest/service/EleveService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="272">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1042,10 +1018,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/brandolkuete/scolairebackendrest/service/EleveServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="119">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#3195#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1056,6 +1032,18 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>brandolkuete</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

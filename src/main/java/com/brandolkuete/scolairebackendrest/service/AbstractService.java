@@ -27,7 +27,7 @@ public abstract class AbstractService<E extends Auditable,D extends AuditableDTO
         E entity = (E) Optional.of(getRepository().findById(id))
                 .filter(Optional::isPresent)
                 .map(Optional::get).get();
-        getRepository().delete(entity);
+        getRepository().deleteById(id);
     }
 
     public D getOne(Long id) {

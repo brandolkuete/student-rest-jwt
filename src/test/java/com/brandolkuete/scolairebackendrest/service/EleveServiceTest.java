@@ -1,16 +1,23 @@
+/*
+ * BrandolKuete
+ */
+
 package com.brandolkuete.scolairebackendrest.service;
 
 import com.brandolkuete.scolairebackendrest.dto.EleveDTO;
 import com.brandolkuete.scolairebackendrest.dto.mapper.EleveMapper;
 import com.brandolkuete.scolairebackendrest.entities.Eleve;
 import com.brandolkuete.scolairebackendrest.repository.EleveRepository;
-import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.*;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
 
 class EleveServiceTest {
 
@@ -33,11 +40,14 @@ class EleveServiceTest {
     }
 
     @Test
-    public void findByMatricule() {
+    public void should_find_student_by_matricule() {
 
-        Eleve eleveEntity = new Eleve((long) 9, "Master 1","Informatique");
+        Eleve eleveEntity = new Eleve( 9L, "Master 1","Informatique");
+        Mockito.doReturn(eleveEntity).when(eleveRepository).findByMatricule("15T2778");
 
-        Mockito.when(eleveRepository.findByMatricule("15T2778")).thenReturn(eleveEntity);
+        Eleve returnedEleve = underTest.findByMatricule("15T2778");
+
+        Assertions.assertSame(eleveEntity,returnedEleve);
     }
 
     @Test
@@ -55,17 +65,22 @@ class EleveServiceTest {
         Mockito.verify(eleveRepository).save(eleveArgumentCaptor.capture());
 
         Eleve eleve1Captured = eleveArgumentCaptor.getValue();
-
-        Assertions.assertThat(eleve1Captured).isEqualTo(eleve);
+        Assertions.assertEquals(eleve1Captured,eleve);
     }
 
     @Test
-    void shouldFindAllStudents() {
+    void shouldFindAllStudents() throws ParseException {
+
+        //Given
+        Eleve eleve1 = new Eleve( 1l, "15T2778", "Kuete Melong", "Brandol", new  SimpleDateFormat("yyyy-MM-dd").parse("2021-05-04"), "Yaoundé", "Master 1","Informatique");
+        Eleve eleve2= new Eleve( 2l, "12U777", "Atangana", "Paul", new  SimpleDateFormat("yyyy-MM-dd").parse("1998-05-04"), "Douala", "Niveau 1","Chimie");
+
         //When
-        underTest.findAll();
+        Mockito.doReturn(Arrays.asList(eleve1,eleve2)).when(eleveRepository).findAll();
+        List<EleveDTO> returnedList = underTest.findAll();
 
         //Then
-        Mockito.verify(eleveRepository).findAll();
+        Assertions.assertEquals(Arrays.asList(eleveMapper.toDto(eleve1),eleveMapper.toDto(eleve2)), returnedList);
     }
 
     @Test
@@ -75,7 +90,27 @@ class EleveServiceTest {
         int b= 10;
 
         //Then
-        Assertions.assertThat(add.addition(a,b)).isEqualTo(22);
+        Assertions.assertEquals(add.addition(a,b),22);
+    }
+
+    @Test
+    void shoul_delete_student() throws ParseException {
+        Eleve eleve = new Eleve( 1l, "15T2778", "Kuete Melong", "Brandol", new  SimpleDateFormat("yyyy-MM-dd").parse("2021-05-04"), "Yaoundé", "Master 1","Informatique");
+        Mockito.doReturn(Optional.of(eleve)).when(eleveRepository).findById(eleve.getId());
+        underTest.delete(eleve.getId());
+
+        Mockito.verify(eleveRepository).deleteById(eleve.getId());
+    }
+
+    @Test
+    void should_get_student_by_id() throws ParseException {
+        Eleve eleve = new Eleve( 1l, "15T2778", "Kuete Melong", "Brandol", new  SimpleDateFormat("yyyy-MM-dd").parse("2021-05-04"), "Yaoundé", "Master 1","Informatique");
+
+        Mockito.doReturn(Optional.of(eleve)).when(eleveRepository).findById(eleve.getId());
+
+        Eleve eleve1= eleveMapper.toEntity(underTest.getOne(eleve.getId()));
+
+        Assertions.assertEquals(eleve,eleve1);
     }
 
     public class Add{
