@@ -34,7 +34,7 @@ public class EleveService extends AbstractService<Eleve,EleveDTO> {
                         eleve.setMatricule(entityDTO.getMatricule());
                         eleve.setNom(entityDTO.getNom());
                         eleve.setPrenom(entityDTO.getPrenom());
-
+                        eleve.setDate_nais(entityDTO.getDate_nais());
                         eleve= eleveRepository.save(eleve);
                         return eleve;
                     }).map(eleveMapper::toDto).get();
