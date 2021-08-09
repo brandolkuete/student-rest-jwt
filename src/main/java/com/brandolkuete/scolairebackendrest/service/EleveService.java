@@ -43,6 +43,7 @@ public class EleveService extends AbstractService<Eleve,EleveDTO> {
     public Eleve findByMatricule(String matricule) {
         return eleveRepository.findByMatricule(matricule);
     }
+    public Optional<Eleve> findById(Long id) {return eleveRepository.findById(id);}
 
     @Override
     protected JpaRepository<Eleve, Long> getRepository() {

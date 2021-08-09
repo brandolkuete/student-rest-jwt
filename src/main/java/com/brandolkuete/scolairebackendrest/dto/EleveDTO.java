@@ -21,4 +21,11 @@ public class EleveDTO extends PersonneDTO{
 		this.niveau = niveau;
 		this.filiere = filiere;
 	}
+
+	public EleveDTO(String matricule, String nom, String prenom, String addresse, String niveau, String filiere) {
+		super(matricule, nom, prenom, addresse);
+		this.niveau = niveau;
+		this.filiere = filiere;
+	}
+
 }

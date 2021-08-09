@@ -25,4 +25,20 @@ public class Personne extends Auditable{
 	private String prenom;
 	private Date date_nais;
 	private String addresse;
+
+	public Personne(Long id, String matricule, String nom, String prenom, String addresse) {
+		this.id = id;
+		this.matricule = matricule;
+		this.nom = nom;
+		this.prenom = prenom;
+		this.addresse = addresse;
+	}
+
+	public Personne(String matricule, String nom, String prenom, Date date_nais, String addresse) {
+		this.matricule = matricule;
+		this.nom = nom;
+		this.prenom = prenom;
+		this.date_nais = date_nais;
+		this.addresse = addresse;
+	}
 }

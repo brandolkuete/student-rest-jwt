@@ -27,9 +27,20 @@ public class Eleve extends Personne {
 	private String filiere;
 
 	public Eleve(Long id, String matricule, String nom, String prenom, Date date_nais, String addresse, String niveau, String filiere) {
-		super(id, matricule, nom, prenom, date_nais, addresse);
+		super(matricule, nom, prenom, date_nais, addresse);
 		this.niveau = niveau;
 		this.filiere = filiere;
 	}
 
+	public Eleve(Long id, String matricule, String nom, String prenom, String addresse, String niveau, String filiere) {
+		super(id, matricule, nom, prenom, addresse);
+		this.niveau = niveau;
+		this.filiere = filiere;
+	}
+
+	public Eleve(String matricule, String nom, String prenom, Date date_nais, String addresse, String niveau, String filiere) {
+		super(matricule, nom, prenom, date_nais, addresse);
+		this.niveau = niveau;
+		this.filiere = filiere;
+	}
 }

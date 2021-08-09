@@ -21,4 +21,12 @@ public class PersonneDTO extends AuditableDTO {
 	private String prenom;
 	private Date date_nais;
 	private String addresse;
+
+	public PersonneDTO(String matricule, String nom, String prenom, String addresse) {
+		this.matricule = matricule;
+		this.nom = nom;
+		this.prenom = prenom;
+		this.addresse = addresse;
+	}
+
 }

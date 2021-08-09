@@ -14,9 +14,13 @@ public abstract class AbstractService<E extends Auditable,D extends AuditableDTO
     protected abstract JpaRepository<E,Long> getRepository();
     protected abstract AbstractMapper<E,D> getMapper();
 
-    public D save(D entityDTO){
+    /*public D save(D entityDTO){
         final E entity = getMapper().toEntity(entityDTO);
         return getMapper().toDto((E) getRepository().save(entity));
+    }*/
+    public E save(D entityDTO){
+        final E entity = getMapper().toEntity(entityDTO);
+        return (E) getRepository().save(entity);
     }
 
     public List<D> findAll() {

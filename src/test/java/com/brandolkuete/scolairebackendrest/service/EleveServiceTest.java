@@ -11,7 +11,10 @@ import com.brandolkuete.scolairebackendrest.repository.EleveRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.*;
+import org.mockito.ArgumentCaptor;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+import org.mockito.MockitoAnnotations;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -20,8 +23,6 @@ import java.util.List;
 import java.util.Optional;
 
 class EleveServiceTest {
-
-    private Add add;
 
     @Mock
     private EleveRepository eleveRepository;
@@ -32,8 +33,6 @@ class EleveServiceTest {
 
     @BeforeEach
     void setUp() {
-        add= new Add();
-
         //initialiser les mock
         MockitoAnnotations.initMocks(this);
         underTest = new EleveService(eleveRepository,eleveMapper);
@@ -84,16 +83,6 @@ class EleveServiceTest {
     }
 
     @Test
-    void shouldAddTwoNumbers(){
-        //Given
-        int a= 12;
-        int b= 10;
-
-        //Then
-        Assertions.assertEquals(add.addition(a,b),22);
-    }
-
-    @Test
     void shoul_delete_student() throws ParseException {
         Eleve eleve = new Eleve( 1l, "15T2778", "Kuete Melong", "Brandol", new  SimpleDateFormat("yyyy-MM-dd").parse("2021-05-04"), "Yaoundé", "Master 1","Informatique");
         Mockito.doReturn(Optional.of(eleve)).when(eleveRepository).findById(eleve.getId());
@@ -106,16 +95,10 @@ class EleveServiceTest {
     void should_get_student_by_id() throws ParseException {
         Eleve eleve = new Eleve( 1l, "15T2778", "Kuete Melong", "Brandol", new  SimpleDateFormat("yyyy-MM-dd").parse("2021-05-04"), "Yaoundé", "Master 1","Informatique");
 
-        Mockito.doReturn(Optional.of(eleve)).when(eleveRepository).findById(eleve.getId());
+        Mockito.doReturn(Optional.of(eleve)).when(eleveRepository).findById(1l);
 
-        Eleve eleve1= eleveMapper.toEntity(underTest.getOne(eleve.getId()));
+        EleveDTO eleve1= underTest.getOne(1l);
 
-        Assertions.assertEquals(eleve,eleve1);
-    }
-
-    public class Add{
-        public int addition(int a, int b){
-            return a+b;
-        }
+        Assertions.assertEquals(eleve.getNom(),eleve1.getNom());
     }
 }

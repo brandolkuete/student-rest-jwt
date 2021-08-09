@@ -9,7 +9,6 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.text.ParseException;
 import java.util.List;
 
 
@@ -27,16 +26,17 @@ public class ScolarRessources {
 	}
 
 	@PostMapping(value= "/enregistrerEleve")
-    public ResponseEntity<Object> enregistrerEleve(@RequestBody EleveDTO eleveDto) {
+    public ResponseEntity<Eleve> enregistrerEleve(@RequestBody EleveDTO eleveDto) {
     	
     	if(eleveService.findByMatricule(eleveDto.getMatricule())!=null) {
-			return new ResponseEntity<>("un eleve existe déja avec ce matricule",HttpStatus.BAD_REQUEST);
+			return new ResponseEntity("un eleve existe déja avec ce matricule",HttpStatus.BAD_REQUEST);
     	}else {
-    		EleveDTO eleve = eleveService.save(eleveDto);
+    		//EleveDTO eleve = eleveService.save(eleveDto);
+    		Eleve eleve = eleveService.save(eleveDto);
     		if (eleve==null){
-				return new ResponseEntity<>("une erreur est survenue lors de l'enregistrement",HttpStatus.INTERNAL_SERVER_ERROR);
+				return new ResponseEntity("une erreur est survenue lors de l'enregistrement",HttpStatus.INTERNAL_SERVER_ERROR);
 			}else {
-				return new ResponseEntity<>(eleve,HttpStatus.CREATED);
+				return new ResponseEntity(eleve,HttpStatus.CREATED);
 			}
     	}
     }
@@ -66,8 +66,8 @@ public class ScolarRessources {
 	@GetMapping(value= "/findEleve/{id}")
 	public ResponseEntity<EleveDTO> getEleve(@PathVariable("id") Long id) {
 		EleveDTO eleveDTO= eleveService.getOne(id);
-
-		return new ResponseEntity<>(eleveDTO,HttpStatus.OK);
+		if (eleveDTO == null) return new ResponseEntity(HttpStatus.NOT_FOUND);
+		return new ResponseEntity(eleveDTO,HttpStatus.OK);
 	}
 
 	@PutMapping(value = "/modifierEleve/{id}")
@@ -75,13 +75,13 @@ public class ScolarRessources {
 
 		EleveDTO eleveDTO= eleveService.update(eleveDto,id);
 
-		return new ResponseEntity<>(eleveDTO,HttpStatus.OK);
+		return new ResponseEntity(eleveDTO,HttpStatus.OK);
 	}
 
 	@DeleteMapping(value = "/supprimerEleve/{id}")
-	public ResponseEntity<Object> supprimerEleve(@PathVariable("id") Long id){
+	public ResponseEntity supprimerEleve(@PathVariable("id") Long id){
 
 		eleveService.delete(id);
-		return new ResponseEntity<>("l'eleve a été supprimé",HttpStatus.OK);
+		return ResponseEntity.ok().build();
 	}
 }
